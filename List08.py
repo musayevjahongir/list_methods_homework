@@ -6,4 +6,9 @@ def main(fruits):
     Returns:
         list: return answer
     """
-    return
+    i=0
+    while i<len(fruits):
+        fruits.remove("apple")
+        i+=1
+    return fruits
+print(main(fruits = ["apple", "banana", "apple", "pear", "apple"]))
